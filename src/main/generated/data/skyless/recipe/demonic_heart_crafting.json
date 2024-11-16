@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "1": {
+      "item": "minecraft:dragon_head"
+    },
+    "2": {
+      "item": "minecraft:piglin_head"
+    },
+    "3": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "4": {
+      "item": "minecraft:zombie_head"
+    },
+    "5": {
+      "item": "skyless:heart_of_evil"
+    },
+    "6": {
+      "item": "skyless:reality_core"
+    }
+  },
+  "pattern": [
+    "152",
+    "565",
+    "354"
+  ],
+  "result": {
+    "count": 1,
+    "id": "skyless:demonic_heart"
+  }
+}

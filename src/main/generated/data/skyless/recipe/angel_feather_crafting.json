@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "1": {
+      "item": "minecraft:feather"
+    },
+    "2": {
+      "item": "minecraft:leather_helmet"
+    },
+    "3": {
+      "item": "minecraft:leather_chestplate"
+    },
+    "4": {
+      "item": "minecraft:leather_leggings"
+    },
+    "5": {
+      "item": "minecraft:leather_boots"
+    },
+    "6": {
+      "item": "skyless:reality_core"
+    }
+  },
+  "pattern": [
+    "121",
+    "364",
+    "151"
+  ],
+  "result": {
+    "count": 1,
+    "id": "skyless:angel_feather"
+  }
+}

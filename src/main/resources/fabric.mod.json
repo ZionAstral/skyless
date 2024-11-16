@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "skyless",
+	"version": "1.0",
+	"name": "Skyless",
+	"description": "A mod that somehow works :D",
+	"authors": [
+		"qlx"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/skyless/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.qlx.skyless.Skyless"
+		],
+		"fabric-datagen": [
+			"net.qlx.skyless.SkylessDataGenerator"
+		],
+		"client": [
+			"net.qlx.skyless.SkylessClient"
+		]
+	},
+	"mixins": [
+		"skyless.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
